@@ -1,80 +1,130 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bài học</title>
-<style>
-body {
-margin: 0;
-font-family: Arial, sans-serif;
-background: #f6f8fc;
-}
-.banner {
-width: 100%;
-height: 240px;
-background: url('bài 7.jpg') center/cover no-repeat;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.banner-title {
-font-size: 40px;
-font-weight: 700;
-color: white;
-text-shadow: 3px 3px 10px rgba(0,0,0,0.9);
-}
-.back-btn {
-display: inline-block;
-margin: 25px;
-background: #2a4d69;
-color: white;
-padding: 10px 18px;
-border-radius: 6px;
-text-decoration: none;
-font-weight: 600;
-}
-.problem-box {
-background: white;
-padding: 18px 22px;
-border-left: 6px solid #2a4d69;
-border-radius: 8px;
-margin: 20px 0;
-box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-}
-.content {
-width: 80%;
-max-width: 900px;
-margin: auto;
-font-size: 18px;
-line-height: 1.6;
-}
-</style>
-</head>
-<body>
-
-
-<a href="https://nhungo2210028-hash.github.io/uuujij" class="back-btn">← Quay về trang chủ</a>
-
-
-<div class="banner">
-<div class="banner-title">BÀI 7: HTML VÀ CẤU TRÚC WEB</div>
-</div>
-
-    <div class="content">
-<b>Đề bài:</b> Luyện tập 2 trang 44 Tin học 12.
-</div>
-
-<pre>
-<!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Văn bản về sen</title>
+<title>Bài học</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f6f8fc;
+    }
+
+    /* Banner */
+    .banner {
+        width: 100%;
+        height: 240px;
+        background: url('bài 7.jpg') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    /* Tiêu đề giữa banner */
+    .banner-title {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.9);
+    }
+
+    /* Nút quay về */
+    .back-btn {
+        display: inline-block;
+        margin: 25px;
+        background: #2a4d69;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .back-btn:hover {
+        background: #1d3550;
+    }
+
+    /* Tiêu đề phần */
+    h2 {
+        font-size: 32px;
+        margin-top: 40px;
+        color: #1a2e40;
+        text-align: left;
+        font-weight: 700;
+        font-family: Arial, sans-serif; /* phông bình thường */
+    }
+
+    /* Khung đề bài */
+    .problem-box {
+        background: white;
+        padding: 18px 22px;
+        border-left: 6px solid #2a4d69;
+        border-radius: 8px;
+        margin: 20px 0;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    }
+
+    /* Nội dung */
+    .content {
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+</style>
 </head>
+
 <body>
+
+<a href="https://nhungo2210028-hash.github.io/uuujij" class="back-btn">← Quay về trang chủ</a>
+
+<div class="banner">
+    <div class="banner-title">BÀI 7: HTML VÀ CẤU TRÚC TRANG WEB</div>
+</div>
+
+<div class="content">
+
+    <h2>LUYỆN TẬP</h2>
+
+    <div class="problem-box">
+        <b>Đề bài:</b>  
+          <P>Luyện tập 1 trang 44 Tin học 12: Tìm ví dụ về phần tử HTML không thể lồng, tức là không thể có quan hệ cha con trong cây thông tin của trang web.
+</P>
+       &lt;p&gt; &lt;!DOCTYPE html&gt; &lt;/p&gt;
+&lt;p&gt; &lt;html lang="en"&gt; &lt;/p&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Phần tử img&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;img src="example.jpg" alt="Mô tả hình ảnh"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+    </div>
+
+      <div class="problem-box">
+        <b>Đề bài:</b>  
+         <P>Luyện tập 2 trang 44 Tin học 12: Chọn một văn bản đơn giản soạn thảo tệp HTML để hiển thị nội dung văn bản đó vẽ cây thông tin các phần tử HTML của trang web vừa soạn thảo.</P>
+
+    </div>
+
+   &lt;!DOCTYPE html&gt;
+&lt;html lang="vi"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Văn bản về sen&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
 "Trong đầm gì đẹp bằng sen, lá xanh bông trắng lại chen nhị vàng."
-</body>
-</html>
+&lt;/body&gt;
+&lt;/html&gt;
 Cây thông tin:
 html
 ├── head
@@ -83,49 +133,60 @@ html
 │ └── title
 └── body
 └── "Trong đầm gì đẹp bằng sen..."
-</pre>
 
 
-<h2>VẬN DỤNG</h2>
+    <h2>VẬN DỤNG</h2>
+
+    <div class="problem-box">
+        <b>Đề bài:</b>  
+      <P>Vận dụng 1 trang 44 Tin học 12: Em hãy tìm trên mạng các trang web hỗ trợ soạn thảo HTML trực tuyến</P>
 
 
-<div class="problem-box">
-<b>Đề bài:</b> Vận dụng 1 trang 44 Tin học 12.
-</div>
+    </div>
+
+    <p>
+ <p>Một số trang web phổ biến cung cấp các công cụ soạn thảo HTML trực tuyến: </p>
+ <p>JSFiddle (https://jsfiddle.net/) .</p>
+ <p>CodePen (JS Bin (https://jsbin.com/): .</p>
+ <p>Repl.it (https://replit.com/)</p>
 
 
-<p>JSFiddle (https://jsfiddle.net/)</p>
-<p>CodePen (https://codepen.io/)</p>
-<p>JS Bin (https://jsbin.com/)</p>
-<p>Replit (https://replit.com/)</p>
-
-
-<div class="problem-box">
-<b>Đề bài:</b> Vận dụng 2 trang 44 Tin học 12.
-</div>
-
-
-<pre>
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-<meta charset="UTF-8">
-<title>Lịch sử phát triển HTML</title>
-</head>
-<body>
-<h1><strong>Lịch sử phát triển HTML</strong></h1>
-<p>Các chuẩn HTML... CERN.</p>
-<p>Ý tưởng ban đầu... CERN.</p>
-<p>Hình ảnh sau... “hypertext”.</p>
-<img src="đường_dẫn_đến_hình_ảnh" alt="Sơ đồ Hypertext" style="max-width:100%;height:auto;">
-<p>Phiên bản đầu tiên... 1991.</p>
-<p>Từ đó các phiên bản... internet.</p>
-<p>Phiên bản hiện tại là HTML5, ra đời năm 2014.</p>
-</body>
-</html>
-</pre>
-
+    </p>
 
 </div>
-</body>
-</html>
+
+   <div class="problem-box">
+        <b>Đề bài:</b>  
+      <P>Vận dụng 2 trang 44 Tin học 12: Sử dụng phần mềm soạn thảo HTML và soạn thảo trang web có nội dung như Hình 7.7. Lưu ý rằng thẻ  với tính tăng thể hiện ảnh trên trang web có cú pháp: ,trong đó “tên tệp ảnh” chính là đường dẫn của tệp hình ảnh cần đưa lên trang.
+</P> 
+
+
+     </div>
+
+    <p>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="vi"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Lịch sử phát triển HTML&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;&lt;strong&gt;Lịch sử phát triển HTML&lt;/strong&gt;&lt;/h1&gt;
+    &lt;p&gt;Các chuẩn HTML của trang web hiện nay được nhà vật lý Tim Berners-Lee đưa ra lần đầu tiên vào những năm 1990 của thế kỷ XX tại trung tâm vật lý hạt nhân CERN.&lt;/p&gt;
+    &lt;p&gt;Ý tưởng ban đầu của Berners-Lee là muốn thiết lập một chuẩn chung để thể hiện và chia sẻ các văn bản có thể trao đổi bên trong cơ quan CERN.&lt;/p&gt;
+    &lt;p&gt;Hình ảnh sau là sơ đồ thông tin mà Tim Berners-Lee đưa ra lần đầu tiên để minh họa cho ý tưởng của mình. Trong sơ đồ này lần đầu tiên xuất hiện cụm từ “hypertext” (siêu văn bản).&lt;/p&gt;
+    &lt;!-- Bạn cần thay thế 'đường_dẫn_đến_hình_ảnh_của_bạn' bằng đường dẫn thực tế hoặc URL của hình ảnh mà bạn muốn chèn --&gt;
+    &lt;img src="đường_dẫn_đến_hình_ảnh" alt="Sơ đồ Hypertext của Tim Berners-Lee" style="max-width: 100%; height: auto;"&gt;
+    &lt;p&gt;Phiên bản đầu tiên của HTML được thiết lập vào cuối năm 1991 mang tên “các thẻ HTML” văn bản này do chính Tim Berners-Lee biên soạn.&lt;/p&gt;
+    &lt;p&gt;Từ đó các phiên bản tiếp theo của HTML lần lượt ra đời cùng với sự phát triển của công nghệ internet.&lt;/p&gt;
+    &lt;p&gt;Phiên bản hiện tại là HTML5, ra đời năm 2014.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+          </p>
+
+  </div>  
+
+
+
